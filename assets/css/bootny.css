@@ -542,6 +542,60 @@ footer {
 	float:clear;
 }
 
+.roadmap2018 {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    padding: 50px 0 120px 0px;
+}
+
+.roadmap2019 {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    padding: 50px 0 120px 0px;
+}
+
+.lefttext2018,
+.righttext2018 {
+    float: left;
+    width: 50%;
+    text-align: left;
+}
+
+.lefttext2018 h2,
+.righttext2018 h2,
+.lefttext2019 h2,
+.centertext2019 h2,
+.righttext2019 h2 {
+    font-weight: 800;
+    padding: 5px 0 10px 5px;
+    font-size: 21px;
+}
+
+.lefttext2018 p,
+.righttext2018 p,
+.lefttext2019 p,
+.centertext2019 p,
+.righttext2019 p {
+    font-weight: 600;
+}
+
+.lefttext2019,
+.centertext2019,
+.righttext2019  {
+    float: left;
+    width: 28%;
+    margin-right: 2%;
+    margin-left: 3%;
+    text-align: left;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
 
 
 
@@ -863,5 +917,35 @@ footer {
     }
     .faq_bloc_header img {
         float: left;
+    }
+    .top_2018 {
+        font-weight: 900;
+        font-size: 30px;
+    }
+    .roadmap2018 {
+        text-align: center;
+        width: 65%;
+        margin: 0 auto;
+        padding: 50px 0 120px 0px;
+    }
+    .roadmap2019 {
+        text-align: center;
+        width: 65%;
+        margin: 0 auto;
+        padding: 50px 0 120px 0px;
+    }    
+    .lefttext2018,
+    .righttext2018 {
+        float: none;
+        width: 100%;
+        text-align: left;
+    }
+    .lefttext2019,
+    .centertext2019,
+    .righttext2019  {
+        float: none;
+        width: 100%;
+        text-align: left;
+        margin: 0;
     }
 }
